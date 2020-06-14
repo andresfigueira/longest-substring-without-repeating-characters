@@ -1,6 +1,7 @@
 import unittest
 from solution.solution import solution
 
+
 class TestAddTwoNumbers(unittest.TestCase):
     def test_should_return_3_with_abcabcbb(self):
         answer = solution('abcabcbb')
